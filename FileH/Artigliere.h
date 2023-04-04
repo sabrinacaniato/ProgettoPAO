@@ -2,10 +2,10 @@
 #define ARTIGLIERE_H
 
 #include <iostream>
-#include "Kill.h"
+#include "PersonaggioMagico.h"
 using namespace std;
 
-class Artigliere: public Kill{
+class Artigliere: public PersonaggioMagico{
 
     private:
         unsigned int cont=2;

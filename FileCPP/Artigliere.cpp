@@ -1,17 +1,17 @@
 
 
 #include <iostream>
-#include "Artigliere.h"
+#include "../FileH/Artigliere.h"
 using namespace std;
 
-    Artigliere::Artigliere(): Kill("Artigliere", "Villaggio", "Buono"){}
+    Artigliere::Artigliere(): PersonaggioMagico("Artigliere", "Villaggio", "Buono"){}
         
     void Artigliere::uccidi( Giocatore& g){
         if(&g && getCont()>0 && g.isVivo())
         {
             g.setMorto();
             decrease();
-            cout<<"Il giocatore " << <<" é artigliere";
+            cout<<"Il giocatore é artigliere";
         }
 
     }
