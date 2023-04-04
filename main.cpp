@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-#include "Medium.h"
-#include "Veggente.h"
-#include "Personaggio.h"
-#include "Giocatore.h"
-#include "Lupo.h"
-#include "Medico.h"
+#include "FileH/Medium.h"
+#include "FileH/Veggente.h"
+#include "FileH/Personaggio.h"
+#include "FileH/Giocatore.h"
+#include "FileH/Lupo.h"
+#include "FileH/Medico.h"
 
 
 
@@ -22,7 +22,7 @@ int main()
   Giocatore e("Elena");
   Medico med;
   e.setPersonaggio(med);
-  med.salva(e,a);
+  med.salva(a);
   cout<<"\n"<<a.getVivo();
   lup.uccidi(a);
   cout<<"\n"<<a.getVivo()<<"\n";
