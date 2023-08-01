@@ -11,7 +11,7 @@ using namespace std;
         {
             g.setMorto();
             decrease();
-            cout<<"Il giocatore " << <<" é artigliere";
+            cout<<"Il giocatore bisogna aggiungere cose é artigliere";
         }
 
     }

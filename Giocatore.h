@@ -1,15 +1,15 @@
-#if !defined(GIOCATORE_H)
+#ifndef GIOCATORE_H
 #define GIOCATORE_H
 
 #include <string>
 using namespace std;
 #include "Personaggio.h"
     
-
+class Personaggio;
 class Giocatore{
     private:
         string nome;
-        Personaggio ruolo;
+        Personaggio *ruolo;
         unsigned int livello;
         unsigned int voti;
         int vivo;

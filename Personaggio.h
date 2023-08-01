@@ -1,7 +1,7 @@
-#if !defined(PERSONAGGIO_H)
+#ifndef PERSONAGGIO_H
 #define PERSONAGGIO_H
 
-#include "Giocatore.h";
+#include "Giocatore.h"
 #include <string>
 #include <iostream>
 #include<list>
@@ -9,13 +9,12 @@ using namespace std;
 
 //enum  squadra {Villaggio, Lupi,Solitario};
 //enum  visto {Buono, Cattivo, Indefinito};
-
+class Giocatore;
 class Personaggio{
     private:
         string nome;
         string squadra;
         string visto;
-        friend class Giocatore;
         //string descrizione; gestisco graficamente
         //unsigned int idp;
     public:
