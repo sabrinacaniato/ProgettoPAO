@@ -1,0 +1,3 @@
+/home/anna/Scrivania/ProgettoPAO-PrimaProva/ProgettoPAO-PrimaProva/cmake-build-debug/CMakeFiles/Progetto.dir
+/home/anna/Scrivania/ProgettoPAO-PrimaProva/ProgettoPAO-PrimaProva/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anna/Scrivania/ProgettoPAO-PrimaProva/ProgettoPAO-PrimaProva/cmake-build-debug/CMakeFiles/rebuild_cache.dir

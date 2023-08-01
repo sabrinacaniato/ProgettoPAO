@@ -7,7 +7,7 @@
         Giocatore::Giocatore(string s, unsigned int l, unsigned int v ): nome(s), livello(l), voti(v){
             vivo=1;
             salvato=false;
-            ruolo=Personaggio();
+            *ruolo=Personaggio();
         }
         string Giocatore::getNome() const {return nome;}
         void Giocatore::setNome(string n){nome=n;}
@@ -16,8 +16,8 @@
         void Giocatore::setLivello(unsigned int l){livello=l;}
         void Giocatore::addLivello(){livello++;}
 
-        Personaggio Giocatore::getPersonaggio() const {return ruolo;}
-        void Giocatore::setPersonaggio(Personaggio p){ruolo=p;}
+        Personaggio Giocatore::getPersonaggio() const {return *ruolo;}
+        void Giocatore::setPersonaggio(Personaggio p){*ruolo=p;}
 
         unsigned int Giocatore::getVoti() const {return voti;}
         void Giocatore::addVoto() {voti++;}

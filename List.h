@@ -26,6 +26,7 @@ class List{
         List();
         List(const List& l); //copia profonda 
         ~List();
+
         List& operator=(const List& l);
 
         void inserimento(const Giocatore& g);
